@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Reserva</title>
+		<link rel="stylesheet" href="estil.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Reservacion</h1>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">La reservacion está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://9536de0449.cbaul-cdnwnd.com/76b91084e3443ccbcff6ef14a05309d3/200000014-28e8728e89/ciudad-de-mexico-angel-independencia-depositphotos.jpeg?ph=9536de0449"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Ciudad de Mexico</h2>
+					<p class="price">$1656</p>
+					<button class="btn-add-cart">Reservar</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.cancunadventure.net/images/puntacancun-airview.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cancun</h2>
+					<p class="price">$1400</p>
+					<button class="btn-add-cart">Reservar</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://live.staticflickr.com/65535/49127304976_7e4b57d2ee_z.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Yucatan</h2>
+					<p class="price">$1000</p>
+					<button class="btn-add-cart">Reservar</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.hayfestival.com/queretaro-mexico.jpg?cmsotimagehandler=/Uploads/Crops/0423e4b4-33d4-4b6b-aa5c-66d05bce4110/2bc34d38-f8da-4ee6-909e-9b888a1cc95d.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Queretaro</h2>
+					<p class="price">$950</p>
+					<button class="btn-add-cart">Reservar</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/66000/66886-Morelia.jpg?impolicy=fcrop&w=400&h=225&q=mediumLow"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Michoacan</h2>
+					<p class="price">$760</p>
+					<button class="btn-add-cart">Reservar</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+
+        <a class="menu-item" href="index.html"><span class="menu-item-text">Ir a Inicio</span></a>
+	</body>
+</html>
+
+
